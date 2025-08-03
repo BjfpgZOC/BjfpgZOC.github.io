@@ -8,7 +8,7 @@ header:
 <h1 id="about" class="small-title" style="padding-top: 40px; margin-top: -50px;">Grüezi!</h1>
 
 <div class="justified-paragraph small-text">
-    I am a currently a graduate student in <a href="https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/robotics-systems-and-control.html" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">Robotics, Systems & Control</a> at <a href="https://ethz.ch/en.html" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">ETH, Zurich</a>. My research interests focus on Reinforcement Learning, Computer Vision and Sequence Modelling (State-Space Models).
+    My name is Gokul Raju and I recently graduated with a Master's degree in <a href="https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/robotics-systems-and-control.html" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">Robotics, Systems & Control</a> from <a href="https://ethz.ch/en.html" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">ETH, Zurich</a>. My research interests focus on Machine Learning, Computer Vision, Reinforcement Learning, Event-based Vision and Sequence Modelling (State-Space Models).
 </div>
 
 <div class="justified-paragraph small-text">
@@ -26,7 +26,10 @@ header:
 <div class="image-text-container">
     <div class="text-content">
         <p class="project-title"><strong>State Space Models for Efficient Reinforcement Learning in Quadrotors</strong></p>
-        <p class="project-desc justified-paragraph">Proposed the first SSM-based RL framework for Autonomous Drone Racing for both state-based and vision-based domains. Developed a custom PPO JAX-Implementation to train the drone racing policies for the <a href="https://uzh-rpg.github.io/flightmare/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">Flightmare Simulator</a>. Achieved SOTA performance – 8-10% faster lap-times in comparison to existing drone racing policies on the Flightmare Simulator by effectively capturing and utilizing the rich temporal information embedded in the drone racing environment. (Code - Soon!)</p>
+        <p class="project-desc justified-paragraph">Proposed the first SSM-based RL framework for Autonomous Drone Racing for both state-based and vision-based domains. Developed a custom PPO JAX-Implementation to train the drone racing policies for the <a href="https://uzh-rpg.github.io/flightmare/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">Flightmare Simulator</a>. Achieved SOTA performance – 8-10% faster lap-times in comparison to existing drone racing policies on the Flightmare Simulator by effectively capturing and utilizing the rich temporal information embedded in the drone racing environment.
+        <br>
+        <a href="https://github.com/BjfpgZOC/ETH-Master-Thesis" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">[Report]</a>
+        </p>
     </div>
         <div class="grid-container-two-right-column">
         <img src="assets/images/thesis_flight.png" alt="Flightmare Environment" class="grid-item-temp1">
@@ -43,14 +46,31 @@ header:
     </div>
     <div class="text-content">
         <p class="project-title"><strong>Pushing the limits of Optical Flow Estimation in Event Cameras</strong></p>
-        <p class="project-desc justified-paragraph">Proposed the first multi-event learning based optical flow framework for event-based vision. Achieved SOTA performance on event-based optical flow benchmarks such as <a href="https://dsec.ifi.uzh.ch/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">DSEC-Flow</a> and <a href="https://daniilidis-group.github.io/mvsec/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">MVSEC</a>. (Code - Soon!)</p>
+        <p class="project-desc justified-paragraph">Proposed the first multi-event learning based optical flow framework for event-based vision. Achieved SOTA performance on event-based optical flow benchmarks such as <a href="https://dsec.ifi.uzh.ch/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">DSEC-Flow</a> and <a href="https://daniilidis-group.github.io/mvsec/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">MVSEC</a>.
+        <br>
+        <a href="https://github.com/BjfpgZOC/ETH-Semester-Thesis" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">[Report]</a>
+        <br>
+        <br>
+        An extension of this work was published as a Workshop Paper.
+        <br>
+        <strong>Perturbed State Space Feature Encoders for Optical Flow with Event Cameras</strong>
+        <br>
+        <em>Gokul Raju Govinda Raju, Nikola Zubi´c, Marco Cannici, Davide Scaramuzza</em>
+        <br>
+        <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Nashville, 2025</em>
+        <br>
+        <a href="https://arxiv.org/abs/2504.10669" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">[arXiv]</a><a href="https://dsec.ifi.uzh.ch/uzh/dsec-flow-optical-flow-benchmark/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">[Benchmark]</a>
+        </p>
     </div>
 </div>
 
 <div class="image-text-container">
     <div class="text-content">
         <p class="project-title"><strong>Spaceship Obstacle Avoidance and Trajectory Planning</strong></p>
-        <p class="project-desc justified-paragraph">Implemented a <a href="https://arxiv.org/abs/2106.09125" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">SCvx (Successive Convexification)</a> planning and control algorithm for a spaceship to effectively avoid static obstacles (planets) & dynamic obstacles (satellites) and to dock with the docking station. (Code - Soon!)</p>
+        <p class="project-desc justified-paragraph">Implemented a <a href="https://arxiv.org/abs/2106.09125" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">SCvx (Successive Convexification)</a> planning and control algorithm for a 2-D spaceship to effectively avoid static obstacles (planets) & dynamic obstacles (satellites) and to dock with the docking station.
+        <br>
+        <a href="https://github.com/BjfpgZOC/ETH-PDM4AR-Spaceship-Project" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">[Code]</a>
+        </p>
     </div>
         <div class="grid-container-two-right-column">
         <img src="assets/images/dock.gif" alt="Docking" class="grid-item-temp1">
@@ -67,6 +87,9 @@ header:
     </div>
     <div class="text-content">
         <p class="project-title"><strong>Robust Soccer Ball Detection and Tracking (FIFA) </strong></p>
-        <p class="project-desc justified-paragraph">Developed a pipeline to generalize detection and tracking of soccer balls across both blurred and non-blurred frames. Utilized <a href="https://research.google/blog/introducing-google-research-football-a-novel-reinforcement-learning-environment/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">Google Research Football Simulator</a> to extract dataset which was used to train a <a href="https://docs.ultralytics.com/models/yolov8/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">YOLOv8n</a> model to accurately detect soccer balls. Integrated the trained network with an existing state-of-the art approach <a href="https://arxiv.org/abs/2111.14465" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">MfB (Motion from Blur)</a> to track fast moving blurry objects across frames. Obtained the ball detections from the (YOLOv8n + MfB) model for a custom FIFA dataset and combined it with camera pose information to triangulate the position of the ball and subsequently generated trajectories of the soccer ball. (Code - Soon!)</p>
+        <p class="project-desc justified-paragraph">Developed an end-to-end pipeline to effectively detect & track soccer balls in both sharp and blurred broadcast frames. Generated a synthetic dataset with <a href="https://research.google/blog/introducing-google-research-football-a-novel-reinforcement-learning-environment/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">Google Research Football Simulator</a> and implemented transfer learning on the <a href="https://docs.ultralytics.com/models/yolov8/" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">YOLOv8n</a> object detection model to achieve a 216% increase in precision (0.31 to 0.98) and 717% increase in recall (0.12 to 0.98) compared to the base model. Integrated the fine-tuned detection model with a state-of-the art approach <a href="https://arxiv.org/abs/2111.14465" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">MfB (Motion from Blur)</a> to hadnle high-speed blurry motion. Combined multi-view detections with camera pose information to triangulate the position of the soccer ball (95.78% tracking accuracy at 0.75 IoU) and visualized the tracking results by generating 3D trajectories for coaching analytics.
+        <br>
+        <a href="https://github.com/BjfpgZOC/ETH-3DVision-Project" style="color:rgb(33, 140, 227); text-decoration: none;" target="_blank">[Report]</a>
+        </p>
     </div>
 </div>
